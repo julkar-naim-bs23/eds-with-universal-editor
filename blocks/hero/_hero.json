@@ -21,7 +21,7 @@
       "id": "hero",
       "fields": [
         {
-          "component": "reference",
+          "component": "media",
           "valueType": "string",
           "name": "image",
           "label": "Image",
@@ -40,6 +40,12 @@
           "value": "",
           "label": "Text",
           "valueType": "string"
+        },
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "btnUrl",
+          "label": "Button URL"
         }
       ]
     }
