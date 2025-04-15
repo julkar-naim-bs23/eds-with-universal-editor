@@ -193,7 +193,7 @@
     "id": "hero",
     "fields": [
       {
-        "component": "media",
+        "component": "reference",
         "valueType": "string",
         "name": "image",
         "label": "Image",
@@ -214,7 +214,7 @@
         "valueType": "string"
       },
       {
-        "component": "reference",
+        "component": "aem-content",
         "valueType": "string",
         "name": "btnUrl",
         "label": "Button URL"
