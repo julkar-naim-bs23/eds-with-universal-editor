@@ -142,6 +142,39 @@
     ]
   },
   {
+    "id": "banner",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "btnUrl",
+        "label": "Button URL",
+        "multi": false
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {
@@ -193,7 +226,7 @@
     "id": "hero",
     "fields": [
       {
-        "component": "reference",
+        "component": "media",
         "valueType": "string",
         "name": "image",
         "label": "Image",
@@ -214,7 +247,7 @@
         "valueType": "string"
       },
       {
-        "component": "aem-content",
+        "component": "reference",
         "valueType": "string",
         "name": "btnUrl",
         "label": "Button URL"
